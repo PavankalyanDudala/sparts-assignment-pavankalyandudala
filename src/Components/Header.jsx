@@ -9,7 +9,6 @@ export const Header = () => {
     const [focused, setFocused] = useState(false);
     const  data  = useSelector(state => state.data.pagination.total);
 
-    console.log("Api data in header", data)
 
     const handleFocus = () => {
         setFocused(true);
